@@ -2,8 +2,11 @@
 layout: default
 ---
 
-## Welcome to another page
+## Welcome to my reading list:
 
-_yay_
+_Jeff Bezos_
+
+_Steve Jobs_
+
 
 [back](./)

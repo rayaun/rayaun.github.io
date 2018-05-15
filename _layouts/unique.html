@@ -29,7 +29,8 @@
       {{ content }}
 
       <!-- “Big” carousel -->
-      {% if site.github.has_carousel %}
+      <!-- {% if site.github.has_carousel %} -->
+    <section class="big-carousel">
       <div id="big-carousel" class="carousel slide mb-3" data-ride="carousel" data-interval="4000">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -54,7 +55,8 @@
             <span class="sr-only">Next</span>
         </a>
       </div>
-      {% endif %}
+    </section>
+      <!-- {% endif %} -->
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}

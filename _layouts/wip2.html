@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
 
     <!-- Add the slick-theme.css if you want default styling -->
-    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/> -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
     <!-- Add the slick-theme.css if you want default styling -->
-    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/> -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
     
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <!-- // Add the new slick-theme.css if you want the default styling -->
@@ -36,7 +36,7 @@
     <section class="main-content">
       {{ content }}
       
-      <div class="your-class">
+      <div class="single-item">
         <div>
           <img src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" width="640" height="310" />
           <div class="title">Merry Christmas</div>
@@ -77,21 +77,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
     
     <script type="text/javascript">
-      $('.add-remove').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-      $('.js-add-slide').on('click', function() {
-        slideIndex++;
-        $('.add-remove').slick('slickAdd','<div><h3>' + slideIndex + '</h3></div>');
-      });
-      
-      $('.js-remove-slide').on('click', function() {
-        $('.add-remove').slick('slickRemove',slideIndex - 1);
-        if (slideIndex !== 0){
-          slideIndex--;
-        }
-      });
+      $('.single-item').slick();
   </script>
 
   </body>

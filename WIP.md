@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unique
 title: WIP
 ---
 

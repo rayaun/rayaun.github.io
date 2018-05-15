@@ -2,6 +2,6 @@ title: Staying Curious
 description: Exploring information, pursuing knowledge!
 show_downloads: false
 show_google: true
-has_carousel : true
+# has_carousel : true
 google_analytics: UA-119273475-1
 theme: jekyll-theme-cayman

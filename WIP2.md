@@ -1,5 +1,5 @@
 ---
-layout: WIP2
+layout: wip2
 title: WIP
 ---
 

@@ -10,5 +10,7 @@ layout: default
 
 [___](./WIP.html)
 
+[__2](./WIP2.html)
+
 [Link to original Cayman template](./original-template.html).
 

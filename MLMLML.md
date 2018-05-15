@@ -13,3 +13,7 @@ _Work in Progress.._
 
 **Context:** _I have a bunch of users on my app doing a bunch of things.. How can I segment them into meaningful, actionable groups?_
 
+**K-means clustering**
+Using K-means clustering,
+
+**Feature clean up**

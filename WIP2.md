@@ -1,8 +1,8 @@
 ---
 layout: wip2
-title: WIP
+title: WIP2
 ---
 
-## Adding Bulma extensions.?
+## testing slick
 
 [back](./)

@@ -4,8 +4,6 @@ layout: default
 
 ## Welcome to my reading list:
 
-
-
 You can find my reading list [here](https://www.goodreads.com/user/show/55637557). 
 
 * * *

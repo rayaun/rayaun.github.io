@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8">
 
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -20,7 +25,7 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
       {% if site.show_google %}
-        <a href="https://www.google.com/" class="btn">GOOGLE!</a>
+        <a href="https://www.google.com/" class="btn">hmmm...</a>
         <!-- <a href="https://www.google.com/search?q=surprise+kitten&tbm=isch" class="btn">.....</a> -->
       {% endif %}
     </section>
@@ -28,35 +33,35 @@
     <section class="main-content">
       {{ content }}
 
-      <!-- “Big” carousel -->
-      <!-- {% if site.github.has_carousel %} -->
-    <!-- <section class="big-carousel"> -->
-  <div id="big-carousel" class="carousel slide mb-3" data-ride="carousel" data-interval="4000">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <a class="d-block w-100" href="https://unsplash.com"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa " style="margin-top: 0px; width:100%; border-radius: 0px;"alt="Woah something happened.."></a>
+      <div class='carousel carousel-animated carousel-animate-slide'>
+        <div class='carousel-container'>
+          <div class='carousel-item has-background is-active'>
+            <img class="is-background" src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" width="640" height="310" />
+            <div class="title">Merry Christmas</div>
+          </div>
+          <div class='carousel-item has-background'>
+            <img class="is-background" src="https://wikiki.github.io/images/singer.jpg" alt="" width="640" height="310" />
+            <div class="title">Original Gift: Offer a song with <a href="https://lasongbox.com" target="_blank">La Song Box</a></div>
+          </div>
+          <div class='carousel-item has-background'>
+            <img class="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" width="640" height="310" />
+            <div class="title">Sushi time</div>
+          </div>
+          <div class='carousel-item has-background'>
+            <img class="is-background" src="https://wikiki.github.io/images/life.jpg" alt="" width="640" height="310" />
+            <div class="title">Life</div>
+          </div>
         </div>
-            
-        <div class="carousel-item">
-            <a class="d-block w-100" href="https://unsplash.com"><img src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843" style="margin-top: 0px; width:100%; border-radius: 0px;"alt="Hmm I'm not sure what's wrong"></a>
+        <div class="carousel-navigation is-overlay">
+          <div class="carousel-nav-left">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </div>
+          <div class="carousel-nav-right">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
         </div>
-
-        <div class="carousel-item">
-            <a class="d-block w-100" href="https://unsplash.com"><img src="https://images.unsplash.com/photo-1429704658776-3d38c9990511" style="margin-top: 0px; width:100%; border-radius: 0px;"alt="Hmm I'm not sure what's wrong"></a>
-        </div>
-        
-    
-    <a class="carousel-control-prev" href="#big-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#big-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-  </div>
-    <!-- </section> -->
-      <!-- {% endif %} -->
+      </div>
+      
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
@@ -77,5 +82,7 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
   </body>
 </html>

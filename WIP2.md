@@ -1,8 +1,8 @@
 ---
 layout: wip2
-title: WIP2
+title: ...
 ---
 
-## retrying.... slick
+## retrying... slick
 
 [back](./)

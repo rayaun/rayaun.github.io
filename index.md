@@ -4,12 +4,11 @@ layout: default
 ---
 # 42
 
-
 [Link to my interests](./interests.html).
 
-[.](./MLMLML.html)
+[...](./MLMLML.html)
 
-[_](./WIP.html)
+[___](./WIP.html)
 
 [Link to original Cayman template](./original-template.html).
 

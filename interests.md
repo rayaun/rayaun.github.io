@@ -24,6 +24,6 @@ _Markets are beginning to give way to networks, ownership is becoming less impor
 
 *   MySQL -> PostGreSQL
 *   Machine Learning (Recommended Coursera course [here](https://www.coursera.org/learn/machine-learning) by Prof Andrew Ng)
-*   Ruby on Rails
+*   HTML, CSS and Javascript!
 
 [back](./)

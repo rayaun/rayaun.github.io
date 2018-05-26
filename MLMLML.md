@@ -15,10 +15,16 @@ Found a tutorial on [Machine Learning on Kaggle](https://www.kaggle.com/learn/ma
 **What have I learnt so far?**
  1. **Sci-kit learn**: 
  A great way to start creating models and predicting outputs. Also learnt to choose predictor parameters (numerical) to be trained with the `DecisionTreeRegressor`.
- 2. Model Validation, underfitting, overfitting and optimisation: Using the `Mean Absolute Error` to evalute model;  Splitting training set into train-validation sets; Ensuring model performs well by reducing over/underfitting using the `max_leaf_nodes` feature on the `DecisionTreeRegressor`.
- 3. Random Forests: A slightly more sophisticated machine learning algorithm with better results.
- 5. Feature selection: Handling `NaN` values via imputation, categorical values via `One Hot Encoding` (ie `pandas.get_dummies`).
- 4. XGBoost: Gradient Boosted Random Forest algorithm with more tuning required (learning rate, )
+
+ 1. **Model Validation**: Using the `Mean Absolute Error` to evalute model;  Splitting training set into train-validation sets; 
+ 
+ 1. **Underfitting, overfitting and optimisation**: Ensuring model performs well by reducing over/underfitting using the `max_leaf_nodes` feature on the `DecisionTreeRegressor`.
+
+ 1. **Random Forests**: A slightly more sophisticated machine learning algorithm with better results.
+ 
+ 1. **Feature selection and engineering**: Handling `NaN` values via imputation, categorical values via `One Hot Encoding` (ie `pandas.get_dummies`).
+ 
+ 1. **XGBoost**: Gradient Boosted Random Forest algorithm with more tuning required (learning rate, )
 
 <!-- ### Unsupervised Learning
 
